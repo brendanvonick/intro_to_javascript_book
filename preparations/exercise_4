@@ -1,0 +1,20 @@
+preparations_exercises $ node foo.js
+bar
+
+// node REPL
+> let foo = 'bar';
+= undefined
+
+> console.log(foo);
+bar
+= undefined
+
+> foo;
+= 'bar'
+
+// chrome REPL
+> let foo = 'bar';
+  console.log(foo);
+  foo;
+bar
+= "bar"

@@ -1,0 +1,4 @@
+substring - String - prototype
+create - Object - static
+fromCharCode - String - static
+slice - Array, String - prototype

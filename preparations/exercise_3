@@ -1,0 +1,5 @@
+$ mkdir preparations_exercises
+$ cd preparations_exercises
+$ touch foo.js
+
+# opened foo.js in Atom and added code
