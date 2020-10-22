@@ -1,0 +1,2 @@
+> 'foo' === 'Foo'
+false   // they are not the same (the right 'Foo' has a capital 'F')

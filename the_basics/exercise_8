@@ -1,0 +1,2 @@
+/* No there won't be an error. JavaScript will simply return 'undefined' because
+there hasn't been a value declared at that index. */

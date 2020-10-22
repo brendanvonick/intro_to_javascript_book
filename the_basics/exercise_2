@@ -1,0 +1,31 @@
+> let one = 4936 % 10
+= undefined
+> one
+= 6
+
+> let newnumber = (4936 - one) / 10
+= undefined
+> newnumber
+= 493
+
+> let ten = newnumber % 10
+= undefined
+> ten
+= 3
+
+> newnumber = (newnumber - ten) / 10
+= 49
+> newnumber
+= 49
+
+> let hundred = newnumber % 10
+= undefined
+> hundred
+= 9
+
+> newnumber = (newnumber - hundred) / 10
+= 4
+> thousand = newnumber
+= 4
+> thousand
+= 4

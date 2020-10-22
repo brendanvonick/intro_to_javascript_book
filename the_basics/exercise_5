@@ -1,0 +1,8 @@
+> console.log('5' + 10);
+510
+= undefined
+
+/*  This code logs '510' instead of 15 because it is using implicit type
+    coercion to convert the second data type to a string. The coercion method
+    hasn't been defined using explicit type coercion, so the number 10 gets
+    coerced to a string and concatenated to the string '5'. */
