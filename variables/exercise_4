@@ -1,0 +1,5 @@
+/* The program initially sets a variable 'NAME' to be 'Victor'.It then logs text
+to the console greeting Victor 3 times. Upon trying to reassign the 'NAME'
+variable to 'Joe', however, we get an error because 'NAME' was initialized with
+the 'const' keyword making it a constant, an unchangeable variable. Victor is
+then greeted 3 more times. */

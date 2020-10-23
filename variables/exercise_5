@@ -1,0 +1,6 @@
+/*  This program logs 'bar' to the console. It does so because the variable
+    'foo' is declared with value 'bar' in global scope before the code block.
+    Inside the code block a new variable 'foo' is declared with the let keyword,
+    however this variable has let variable has block scope, limiting its use to
+    inside the code block. Because it's scope ends when the code block ends,
+    console.log(foo) logs the global variable for foo, 'bar', to the console. */

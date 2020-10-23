@@ -1,0 +1,5 @@
+Uncaught ReferenceError: foo is not defined
+
+/*  foo is initialized with block scope, meaning that it is created and defined
+    within the curly braces of a code block. Because of this, it doesn't exist
+    in the global namespace and isn't accessible outside of the code block */

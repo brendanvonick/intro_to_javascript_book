@@ -1,0 +1,6 @@
+/*  No, no error is yielded from this code block. Even though FOO is declared
+    twice in this program with the const keyword, the declarations are made in
+    different scopes; one is global, and one is block, making them 2 completely
+    different variables. The FOO value of 'qux' is limited to the scope inside
+    the block and is inaccessible outside the code block. Therefore the FOO
+    value of 'bar' is what is logged to the console. */
