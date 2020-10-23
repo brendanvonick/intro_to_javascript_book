@@ -1,0 +1,4 @@
+$ node greeter.js
+What is your first name? Brendan
+What is your last name? Vonick
+Hello, Brendan Vonick!

@@ -1,0 +1,7 @@
+$ node age.js
+How old are you?28
+You are 28 years old.
+In 10 years, you will be 38 years old.
+In 20 years, you will be 48 years old.
+In 30 years, you will be 58 years old.
+In 40 years, you will be 68 years old.

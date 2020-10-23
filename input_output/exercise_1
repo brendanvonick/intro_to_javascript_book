@@ -1,0 +1,3 @@
+$ node greeter.js
+What is your name? Brendan
+Hello, Brendan!
