@@ -1,0 +1,5 @@
+/*  The code logs 'Not Empty' to the console. It does this because an array is
+    passed as an argument into the function isArrayEmpty. Even though there are
+    no elements in the array, it's still is an array, it still exists and
+    therefore has a truthy value. Because of it's truthy value, the the first
+    portion of the if/else statement is executed. */

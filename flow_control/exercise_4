@@ -1,0 +1,12 @@
+The code logs:
+
+Product2
+Product3
+Product not found!
+
+/*  It does this because there are no breaks after each case statement and the
+    default. Because of this, once the case body reaches an option that matches
+    the conditional, evaluating to true, it falls through to the next option
+    and returns that, and the following until there are none left or a break
+    is reached. */
+    

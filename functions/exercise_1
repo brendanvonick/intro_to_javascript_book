@@ -1,0 +1,5 @@
+/*  The code logs 1 to the console. The value of 'bar' is initially set at 1 in
+    global scope. The function foo creates a new variable 'bar' that is an
+    entirely new entity and is limited to the scope of the function. Therefore
+    executing the foo function does not affect the output and the value 1 is
+    logged to the console. */

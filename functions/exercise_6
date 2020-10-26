@@ -1,0 +1,3 @@
+/*  Just like the previous exercise, nothing is logged to the console. Even
+    though 'Yipeee!!!!' is returned by the function, there is nothing present
+    to log anything to the console, so nothing is logged. */

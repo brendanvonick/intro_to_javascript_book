@@ -1,0 +1,6 @@
+let oneResult = times(1, 1);
+let twoResult = times(2, oneResult);
+let threeResult = times(3, twoResult);
+let fourResult = times(4, threeResult);
+let fiveResult = times(5, fourResult);
+let sixResult = times(6, fiveResult);

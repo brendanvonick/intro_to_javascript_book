@@ -1,0 +1,3 @@
+/*  The code doesn't log anything to the console. 'Yipeee!!!!' is the returned
+    value from the function 'scream' with argument 'Yipeee', however the
+    function is returned before anything can be logged. */

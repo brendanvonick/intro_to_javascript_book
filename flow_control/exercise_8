@@ -1,0 +1,11 @@
+function numberRange(value) {
+  if (value < 0) {
+    console.log(`${value} is less than 0`);
+  } else if (value <= 50) {
+    console.log(`${value} is between 0 and 50`);
+  } else if (value <= 100) {
+    console.log(`${value} is between 50 and 100`);
+  } else {
+    console.log(`${value} is greater than 100`);
+  }
+}

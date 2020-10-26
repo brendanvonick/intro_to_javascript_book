@@ -1,0 +1,4 @@
+$ node multiply.js
+Enter the first number: 5.162
+Enter the second number: 10
+5.162 * 10 = 51.62
