@@ -10,7 +10,7 @@ let myArray = [
 //    'odd', even', 'even',
 //  ]
 
-let newArray = myArray.map(function(element) {
+let mappedArray = myArray.map(function (element) {
   if (element % 2 === 0) {
     return 'even';
   } else {

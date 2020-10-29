@@ -1,13 +1,14 @@
-function oddLengths(arr) {
-  return arr.reduce((filteredNumbersArray, letters) => {
-    let length = letters.length;
-    if (length % 2 === 1) {
-      filteredNumbersArray.push(length);
-    }
+let arr = ['a', 'abcd', 'abcde', 'abc', 'ab'];
 
-    return filteredNumbersArray;
+function oddLengths(arr) {
+  return arr.reduce((acucmulator, element) => {
+    let length = element.length;
+    if (length % 2 === 0) {
+      accumulator.push(length);
+    }
+    return lengthArray;
   }, []);
+
 }
 
-let arr = ['a', 'abcd', 'abcde', 'abc', 'ab'];
-console.log(oddLengths(arr));
+console.log(oddLengths(arr)); // => [1, 5, 3]

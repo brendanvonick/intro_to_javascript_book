@@ -1,12 +1,13 @@
-function oddLengths(arr) {
-  let filteredNumbersArray = arr.map((letters) => {
-    return letters.length;
-  }).filter((number) => {
-    return number % 2 === 1;
-  });
+let arr = ['a', 'abcd', 'abcde', 'abc', 'ab'];
 
-  return filteredNumbersArray;
+function oddLengths(arr) {
+  let lengthArray = arr.map(function (element) {
+    return element.length;
+  }).filter(function (number) {
+    return element % 2 === 1;
+  });
+  return lengthArray;
+
 }
 
-let arr = ['a', 'abcd', 'abcde', 'abc', 'ab'];
-console.log(oddLengths(arr));
+console.log(oddLengths(arr)); // => [1, 5, 3]

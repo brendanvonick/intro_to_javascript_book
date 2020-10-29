@@ -4,24 +4,10 @@ let myArray = [
   [9, 17, 16, 0],
 ];
 
-for (let i = 0; i < myArray.length; i += 1) {
-  for (let j = 0; j < myArray[i].length; i += 1) {
-    let x = myArray[i][j];
-    if (x % 2 === 0) {
-      console.log(x);
+myArray.forEach(function (nestedArray) {
+  nestedArray.forEach(function (element) {
+    if (element % 2 === 0) {
+      console.log(element);
     }
-  }
-}
-
-
-/*  could also do it this way (per exercise solution):
-
-myArray.forEach(function(nestedArray) {
-nestedArray.forEach(function(value) {
-if (value % 2 === 0) {
-  console.log(value); // => 6, 4, 2, 4, 16, 0
-}
+  })
 });
-});
-
-*/
