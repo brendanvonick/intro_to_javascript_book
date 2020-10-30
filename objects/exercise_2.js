@@ -1,0 +1,2 @@
+/*  All of these values are valid keys for an object because objects simply
+    change them to be strings if they are not already. */
